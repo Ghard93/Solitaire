@@ -1,0 +1,59 @@
+#gameCanvas {
+    background-color: rgba(0, 100, 0, 0);
+}
+
+#canvasContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+#endGameMsg {
+    display: none;
+    width: 300px;
+    height: auto;    
+    position: absolute;
+    top: 20vw;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.navBar {
+    width: 30%;
+    float: right;
+    height: 100vh;
+    text-align: center;
+}
+
+.navBtnContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.titleImg {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+    user-select: none;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(230, 0, 0);
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.459);
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(14, 14, 14);
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    background-image: url(images/backgroundTex2.png);
+    background-size: cover;
+}
